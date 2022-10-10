@@ -52,7 +52,7 @@ function game () {
             }
             console.log(playRound(playerSelected, computerSelected))
         } else {
-            playerSelection = ("Please type in 'rock' 'scissors' or 'paper'")
+            alert("Error - Please type in 'rock' 'scissors' or 'paper'")
             i--
         }
     }
