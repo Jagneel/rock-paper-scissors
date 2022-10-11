@@ -67,3 +67,5 @@ function game () {
         console.log(`Final Score: Player: ${playerScore} Computer: ${computerScore}`)
     }
 }
+
+game();
